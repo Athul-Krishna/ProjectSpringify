@@ -14,7 +14,7 @@
             }
 
             function verifyToken(tokenValue) {
-                $.get('http://ec2-13-233-159-51.ap-south-1.compute.amazonaws.com:8080/springify/users/email-verification', {token: tokenValue}).done(function (response) {
+                $.get('http://ec2-65-2-69-99.ap-south-1.compute.amazonaws.com:8080/springify/users/email-verification', {token: tokenValue}).done(function (response) {
                     if(response["operationResult"] === "SUCCESS") {
                         $("#unsuccessful-result").attr("style", "display: none !important;");
                         $("#successful-result").attr("style", "display: block !important;");

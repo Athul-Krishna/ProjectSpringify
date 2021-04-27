@@ -1,2 +1,4 @@
 /.idea/
 /springify-rest-assured/src/main/resources/application.properties
+/verification-service/.idea/
+/verification-service/target/
